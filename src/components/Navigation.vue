@@ -62,16 +62,16 @@
           <span class="mr-2">首页</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">产品</span>
+          <span class="mr-2">数据集</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">下载</span>
+          <span class="mr-2">模型</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">价格</span>
+          <span class="mr-2">GPU租赁</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">联系方式</span>
+          <span class="mr-2">控制台</span>
         </v-btn>
       </div>
     </v-app-bar>
@@ -99,7 +99,7 @@ export default {
       ["mdi-information-outline", "产品", "#features"],
       ["mdi-download-box-outline", "下载", "#download"],
       ["mdi-currency-usd", "价格", "#pricing"],
-      ["mdi-email-outline", "联系", "#contact"],
+      ["mdi-email-outline", "控制台", "#contact"],
     ],
   }),
   props: {

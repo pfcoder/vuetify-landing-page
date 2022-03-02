@@ -15,14 +15,13 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
+        All rights reserved. X-GPU ORG
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>X-GPU</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -49,10 +48,6 @@ export default {
       {
         text: "mdi-linkedin",
         link: "",
-      },
-      {
-        text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
       },
     ],
   }),

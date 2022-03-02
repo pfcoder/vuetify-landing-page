@@ -5,10 +5,9 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">GPU Cloud</h1>
+              <h1 class="display-2 font-weight-bold mb-4">X-GPU Cloud</h1>
               <h1 class="font-weight-light">
-                GPU池化 <br />
-                为深度学习 图形渲染 3D建模加速！ <br />
+                简单、快捷 一站式人工智能 深度学习训练平台 <br />
               </h1>
               <v-btn
                 rounded
@@ -18,8 +17,8 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Saiba mais
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
+                立即试用
+                <v-icon class="ml-2">mdi-arrow-right</v-icon>
               </v-btn>
               <!--<div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
@@ -137,18 +136,18 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "轻松配置",
+          text: "集成多种主流框架，支持TensorFlow、PyTorch、MXNet、PaddlePaddle、MegEngine等",
         },
         {
           img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "预置训练数据",
+          text: "提供海量公开数据集，无需下载和解压即可调用",
         },
         {
           img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          title: "灵活租用",
+          text: "可根据算力要求、GPU类型筛选算力主机，按小时或包月/年多种租赁方式",
         },
       ],
     };
