@@ -1,5 +1,5 @@
 {
-    "name": "x-gpu-front",
+    "name": "x-gpu",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -7,12 +7,12 @@
         "build": "vue-cli-service build"
     },
     "dependencies": {
+        "axios": "0.18.1",
         "core-js": "^3.8.2",
-        "deepai": "^1.0.17",
-        "firebase": "^7.24.0",
         "vue": "^2.6.12",
-        "vue-youtube-embed": "^2.2.2",
-        "vuetify": "^2.4.2"
+        "vue-router": "3.0.2",
+        "vuetify": "^2.4.2",
+        "vuex": "3.1.0"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "~4.4.0",
